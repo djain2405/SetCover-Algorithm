@@ -1,0 +1,5 @@
+Syntax for importing oracle data:
+
+As submitted in the oracle structure, it needs a table called SETCOVER in the oracle database.
+
+- The code executes SELECT INPUT FROM SETCOVER, and fetches all the rows from INPUT column in the SETCOVER table.

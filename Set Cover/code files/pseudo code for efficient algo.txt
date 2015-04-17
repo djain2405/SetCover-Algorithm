@@ -1,0 +1,11 @@
+Pseudo code for baseline algorithm:
+
+- Connect and open the database where input is stored
+- Each line represents a set, so read each line to get the collection of sets.
+- Call this collection of sets as setCover.
+- For each row, i.e. set, there will be a k value which is generated based on the size of the set. - - Each set will be placed in their corresponding k valued key map.
+- Once all the key value pairs are formed, the algorithm starts by examining all the pairs in the highest k value.
+- For each k, One by one, the sets are visited and all elements in them are examined. If the set has equal to or more than 2^k elements in it, it is considered a success and outputted to the screen. - Else, a new k value is generated for this set and it is moved to that k value.
+- This goes on for all k values down to zero.
+
+Once that is done, we will have the result on-screen.

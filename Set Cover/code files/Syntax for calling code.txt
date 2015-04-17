@@ -1,0 +1,5 @@
+The code to execute the jar files would just be simple commands that need to be executed for any jar file:
+
+- java -jar Filename.jar
+
+It will print the result.

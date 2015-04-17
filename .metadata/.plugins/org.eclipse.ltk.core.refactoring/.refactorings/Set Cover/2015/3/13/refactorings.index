@@ -1,0 +1,15 @@
+1427332784939	Copy compilation unit
+1427333213726	Rename method 'Greedy'
+1427333217165	Rename method 'BaselineAlgo'
+1427333342275	Rename type 'NaiveBaselineAlgoDB'
+1427333351438	Rename type 'NaiveBaselineAlgo'
+1427333360645	Rename type 'NaiveBaselineAlgoDB1'
+1427333408193	Rename method 'Greedy'
+1427333586999	Rename type 'SetCoverAlgo'
+1427333601008	Rename type 'CopyOfSetCoverAlgo'
+1427333633036	Move compilation units
+1427333770420	Copy compilation unit
+1427333963280	Rename method 'algo'
+1427334138955	Move compilation unit
+1427337235567	Copy compilation unit
+1427411855651	Extract local variable 'value'

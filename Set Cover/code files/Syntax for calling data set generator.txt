@@ -1,0 +1,4 @@
+The syntax for calling the data set generator is the same as executing a simple java application. It does not need any command line arguments. However, it needs the XML file to be placed in the same folder as itself, which it is eventually uploading to the database.
+
+- javac FileName.java
+- java FileName

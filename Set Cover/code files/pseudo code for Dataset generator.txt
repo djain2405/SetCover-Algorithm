@@ -1,0 +1,14 @@
+Input will be an XML file, generated from XMark(random XML generator) with 'site' Node as the header note. Hence, nodes at the second level are used as input node for tree format.
+
+Output will be the test dataset table called TestData, which will be created in oracle with the attributes - 
+XMLID number, XMLData XMLTYPE
+XMLID as primary key.
+
+Pseudo code:
+
+- Create a connection to database.
+- Drop any table by the name of TestData
+- Create a table by the same name, having an XMLID, XMLData as its two attributes, and marking XMLID as the primary key.
+- Read the XML file line by line and parse it to find the beginning of the tag value at each level.
+- Once the end tag is found, it represents one tuple of the output table. 
+- The entire data within the tag begin and end, is inserted as an object of type CLOB, in one tuple of the output table, using prepare statements.

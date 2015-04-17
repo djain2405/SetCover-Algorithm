@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BaselineAlgo.java&apos; to &apos;Set Cover/src/com.main&apos;&#x0D;&#x0A;- Original project: &apos;Set Cover&apos;&#x0D;&#x0A;- Destination element: &apos;Set Cover/src/com.main&apos;&#x0D;&#x0A;- Original element: &apos;com.main.BaselineAlgo.java&apos;" description="Copy compilation unit" destination="/src&lt;com.main" element1="/src&lt;com.main{BaselineAlgo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1425780023328" units="1" version="1.0"/>
+</session>

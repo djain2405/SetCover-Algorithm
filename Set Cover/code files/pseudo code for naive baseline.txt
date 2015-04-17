@@ -1,0 +1,11 @@
+Pseudo code for baseline algorithm:
+
+- Connect and open the database where input is stored
+- Each line represents a set, so read each line to get the collection of sets.
+- Call this collection of sets as setCoverList.
+- Start generating all possible combinations of all the sets in this set cover list. For example, if it has 20 sets, then first generate all possible combinations of sets of size 1, then all combinations of size 2, and so on until size 20.
+- For each combination, check whether that combination covers all the distinct elements in the entire collection.
+- If yes, store it in an array.
+- Once all combinations are processed, print the one which has the least number of sets in it.
+
+That is the answer.
